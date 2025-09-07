@@ -5,6 +5,7 @@ import { Parser } from '../Parser';
 
 export class HydroProblemParser extends Parser {
   public static DOMAINS = {
+    'ptezoj.com': 'PTEZOJ',
     'hydro.ac': 'Hydro',
     'oiclass.com': 'oiClass',
     'newoj.cyezoi.com': 'CYEZOJ',
